@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    background-color: #191920;
+    background: url(https://images.pexels.com/photos/10155555/pexels-photo-10155555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat fixed;
     font-family: 'Trebuchet MS',  Arial;
 }
 
@@ -24,17 +24,19 @@ section {
 h1 {
     font-size: 35px;
     letter-spacing: 1px;
-    margin: 20px 0;
+    margin: 110px 0;
     color: #fff;
+    transform: scale(1.7);
 }
 
 form {
-    margin: 20px 0;
-    background-color: #fff;
-    padding: 30px 25px;
+    margin: 100px 0;
+    background-color: rgba(16, 17, 17, 0.459);
+    padding: 35px 30px;
     border-radius: 5px;
     overflow: hidden;
     animation: aparecer 1500ms;
+    transform: scale(1.7);
 }
 
 form .inserir {
@@ -44,7 +46,7 @@ form .inserir {
 
 form .inserir label{
     font-size: 15px;
-    color: #191920;
+    color: #fff;
 }
 
 form .inserir input {
@@ -53,10 +55,11 @@ form .inserir input {
     margin-top: 8px;
     padding: 7px;
     font-size: 10px;
-    color: #191920;
+    color: #fff;
     border-radius: 5px;
-    border: 1px solid #ccddef;
+    border: 1px solid #000000;
     outline-color: #191920;
+    background: rgba(16, 17, 17, 0.753);
 }
 
 form .btn-login {
@@ -71,8 +74,8 @@ form .btn-login {
 }
 
 .btn-login:hover{
-    background-color: #4e9f3d;
-    color: #fafafa;
+    background-color: rgba(132, 216, 236, 0.5);
+    color: #fafffa;
     transition: 1s ease-in;
 }
 
@@ -84,11 +87,11 @@ animation: esconder 1s forwards;
 @keyframes aparecer {
     from {
         opacity: 0;
-        transform: scale(0.5);
+        transform: scale(0.2);
     }
     to {
         opacity: 1;
-        transform: scale(1);
+        transform: scale(1.7);
     }
 }
 
